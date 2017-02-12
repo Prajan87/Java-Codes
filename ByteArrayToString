@@ -1,0 +1,19 @@
+class BytearrayToString {
+	
+	public String changer(byte[] byteArray, int count)
+	{
+		char ch;
+		String str = "";
+		
+		int len = byteArray.length;
+		
+		for (int i=0; i<count; i++){
+			ch = (char)byteArray[i];
+			
+			str = str + ch;
+		}
+		return str;
+		
+	}
+
+}
